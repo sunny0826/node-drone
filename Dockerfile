@@ -9,4 +9,4 @@ RUN npm config set registry https://registry.npm.taobao.org \
 && chmod +x /bin/ossutil \
 && chmod +x /bin/script.sh 
  
-ENTRYPOINT /bin/script.sh
+ENTRYPOINT script.sh
