@@ -9,4 +9,4 @@ RUN npm config set registry https://registry.npm.taobao.org \
 && chmod +x /bin/ossutil \
 && chmod +x /bin/script.sh 
  
-ENTRYPOINT ["ossutil config -e oss-cn-shanghai-internal.aliyuncs.com -i ${PLUGIN_ACCESS_KEY_ID} -k ${PLUGIN_ACCESS_KEY_SECRET}"]
+ENTRYPOINT ["ossutil config -e oss-cn-shanghai-internal.aliyuncs.com -i ${PLUGIN_ID} -k ${PLUGIN_SECRET}"]
